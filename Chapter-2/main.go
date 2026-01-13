@@ -42,4 +42,12 @@ func main() {
 	const secondsInHour = secondsInMinute * minutesInHour
 
 	fmt.Println("number of seconds in an hour:", secondsInHour)
+	//-------------------------------------------------------------------------------------------
+	//Formatting strings
+	const name = "Saul Goodman"
+	const openRate = 30.5
+
+	msg := fmt.Sprintf("Hi %s, your open rate is %.1f percent", name, openRate)
+
+	fmt.Println(msg)
 }
