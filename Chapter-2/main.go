@@ -35,4 +35,11 @@ func main() {
 
 	fmt.Println("plan:", premiumPlaneName)
 	fmt.Println("plan:", basicPlanName)
+	//-------------------------------------------------------------------------------------------
+	//Computed Constants
+	const secondsInMinute = 60
+	const minutesInHour = 60
+	const secondsInHour = secondsInMinute * minutesInHour
+
+	fmt.Println("number of seconds in an hour:", secondsInHour)
 }
