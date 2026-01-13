@@ -22,9 +22,17 @@ func main() {
 
 	fmt.Println(averageOpenRate, displayMessage)
 	//-------------------------------------------------------------------------------------------
+	//Converting Between Types
 	accountAge := 2.6
 
 	accountAgeInt := int(accountAge)
 
 	fmt.Println("Your account has existed for", accountAgeInt, "years")
+	//-------------------------------------------------------------------------------------------
+	//Consts
+	const premiumPlaneName = "Premium Plan"
+	const basicPlanName = "Basic Plan"
+
+	fmt.Println("plan:", premiumPlaneName)
+	fmt.Println("plan:", basicPlanName)
 }
