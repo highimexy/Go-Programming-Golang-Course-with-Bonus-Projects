@@ -49,5 +49,16 @@ func main() {
 
 	msg := fmt.Sprintf("Hi %s, your open rate is %.1f percent", name, openRate)
 
-	fmt.Println(msg)
+	fmt.Println(msg)	
+	//-------------------------------------------------------------------------------------------
+	//Conditionals
+	messageLen := 10
+	maxMessageLen := 20
+	fmt.Println("Trying to send a message of length:", messageLen)
+
+	if messageLen <= maxMessageLen {
+		fmt.Println("Message sent")
+	} else {
+		fmt.Println("Message not sent")
+	}
 }
