@@ -18,6 +18,13 @@ func main(){
 	fmt.Println(concat("Lane,", " happy birthday!"))
 	fmt.Println(concat("Elon,", " hope that Tesla thing works out"))
 	fmt.Println(concat("Go", " is fantastic"))
+	//Passing Variables by value
+	x := 5
+	increment(x)
 
+	fmt.Println(x)
 }
-    
+
+func increment (x int) {
+	x++
+}
