@@ -61,4 +61,9 @@ func main() {
 	} else {
 		fmt.Println("Message not sent")
 	}
+	//-------------------------------------------------------------------------------------------
+	//The initial statement of an if block
+	// if INITIAL_STATEMENT; CONDITION {
+	// }
+	
 }
