@@ -30,6 +30,10 @@ func main(){
 	sendsSoFar = incrementSends(sendsSoFar, sendsToAdd)
 	
 	fmt.Println("you`ve sent", sendsSoFar, "messages")
+	//Ignoring return values
+	// _
+	firstName, _ := getNames()
+	fmt.Println("Welcome to Textio,", firstName)
 }
 
 func increment (x int) {
@@ -39,4 +43,8 @@ func increment (x int) {
 func incrementSends(sendsSoFar, sendsToAdd int) int {
 	sendsSoFar = (sendsSoFar + sendsToAdd)
 	return sendsSoFar
+}
+
+func getNames() (string, string){
+	return "John", "Doe"
 }
