@@ -46,5 +46,5 @@ func incrementSends(sendsSoFar, sendsToAdd int) int {
 }
 
 func getNames() (string, string){
-	return "John", "Doe"
+	return "John", "Doed"
 }
